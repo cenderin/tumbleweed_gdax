@@ -8,14 +8,14 @@ gem 'awesome_print'
 gem 'coinbase-exchange', '0.1.1'
 gem 'sinatra'
 gem 'dotenv-rails'
-
+gem 'rainbow'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 gem 'clockwork', require: false
 gem 'active_attr'
-
+gem 'terminal-notifier'
 # needed in prod git pushing Heroku
 gem 'brakeman', :require => false
 gem 'bundler-audit', :require => false
@@ -44,6 +44,7 @@ group :development, :test do
   gem 'rails_best_practices', require: false
   gem 'reek', require: false
   gem 'byebug', platform: :mri
+  gem 'pry-rails'
 end
 
 group :development do

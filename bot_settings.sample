@@ -3,7 +3,7 @@
 class BotSettings
   unless Rails.env.test?
     # :nocov:
-    QUANTITY = 0.1 # per buy order quantity
+    QUANTITY = 0.25 # per buy order quantity
     BUY_DOWN_INTERVAL = 0.20 # nominal
     PROFIT_INTERVAL = 0.20 # nominal
     PRINT_MANTRA = true
